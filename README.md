@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @timsmith-online
+- 👀 I’m interested in Networking & Communication, Compliance & Cybersecurity, Development & Databases, Cloud & Virtualization Technologies, Data Analysis & ML, Content Management & Documentation.
+- 🌱 I’m currently learning Data Science - Experimental Design.
+- 💞️ I’m looking to collaborate on anything.
+- 📫 How to reach me: contact@timsmith.online
+- ⚡ Fun fact: SSH was invented/developed in 1995 by Tatu Ylönen, as a response to a password-sniffing attack at Helsinki University of Technology in Finland. SSH was designed to provide a secure and encrypted method of remote login.
