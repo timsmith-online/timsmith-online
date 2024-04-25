@@ -1,0 +1,161 @@
+:root {
+  /* 16 Color Palette  */
+  --bg-color: #282828;
+  --fg-color: #ebdbb2;
+  --dark0: #7c6f64;
+  --dark1: #928374;
+  --light0: #fbf1c7;
+  --light1: #d5c4a1;
+  --black: #000000;
+  --grey: #928374;
+  --red: #fb3934;
+  --green: #b8bb26;
+  --yellow: #fabd2f;
+  --blue: #83a598;
+  --purple: #d3869b;
+  --aqua: #8ec07c;
+  --orange: #fe8019;
+  --white: #ffffff;
+}
+
+.dark0 {color: var(--dark0);}
+.dark1 {color: var(--dark1);}
+.light0 {color: var(--light0);}
+.light1 {color: var(--light1);}
+.black {color: var(--black);}
+.grey {color: var(--grey);}
+.red {color: var(--red);}
+.green {color: var(--green);}
+.yellow {color: var(--yellow);}
+.blue {color: var(--blue);}
+.purple {color: var(--purple);}
+.aqua {color: var(--aqua);}
+.orange {color: var(--orange);}
+.white {color: var(--white);}
+.fg-color {color: var(--fg-color);}
+.bg-color {color: var(--bg-color);}
+
+
+
+@media (max-width: 10000px) {
+
+  .myDiv0 {
+    background-color: var(--bg-color);
+    border: 5px solid var(--blue);
+    border-radius: 30px;
+    margin: 25px;
+    max-width: 800px;
+  }
+
+  .myDiv00 {
+    background-color: var(--bg-color);
+    border: 5px solid var(--blue);
+    border-radius: 30px;
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .myDiv1 {
+    background-color: var(--green);
+    color: var(--bg-color);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+  }
+  .myDiv3 {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+  }
+  
+  .element {
+    position: fixed;
+    inset: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+  }
+  p {
+    font-family: serif;
+    color: var(--fg-color);
+    font-size: 14px;
+  }
+  i {
+    color: var(--yellow);
+  }
+  span {
+    color: var(--orange);
+    font-family: Noto, monospace;
+  }
+  code {
+    color: var(--orange);
+    font-family: Noto, monospace;
+  }
+  pre {
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-family: Consolas, monospace;
+  }
+  h1 {
+    font-family: Noto, monospace;
+    color: var(--yellow);
+    font-weight: bold;
+  }
+  h2 {
+    font-family: Noto, monospace;
+    color: var(--blue);
+    font-weight: bold;
+  }
+  h3 {
+    font-family: Noto, monospace;
+    color: var(--yellow);
+    font-weight: bold;
+  }
+  h4 {
+    font-family: Noto, monospace;
+    color: var(--blue);
+    font-weight: bold;
+  }
+  h5 {
+    font-family: Noto, monospace;
+    color: var(--blue);
+    font-weight: bold;
+  }
+  h6 {
+    font-family: Noto, monospace;
+    color: var(--fg-color);
+    font-weight: bold;
+  }
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+
+  body {
+    background-color: #fbf1c7;
+  }
+
+  .myDiv00 {
+    background-color: var(--bg-color);
+    border: 5px solid var(--purple);
+    border-radius: 30px;
+    margin: auto;
+  }
+
+
+  .myDiv0 {
+    background-color: var(--bg-color);
+    border: 5px solid var(--purple);
+    border-radius: 30px;
+    margin: 25px;
+  }
+}
